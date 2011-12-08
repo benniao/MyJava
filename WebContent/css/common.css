@@ -1,8 +1,9 @@
 /* for header */
 #header {
-	height: 50px;
+	height: 40px;
 	width: 950px;
 	margin: 0 auto;
+	padding: 10px;
 }
 
 #header h1 {
@@ -16,6 +17,7 @@
 #content {
 	width: 950px;
 	margin: 0 auto;
+	padding: 120px 0px;
 }
 /* end for content */
 
