@@ -17,6 +17,8 @@
 	line-height: 70px;
 	padding-left: 80px;
 	background: url(../imgs/logo.png) no-repeat;
+	width:500px;
+	float: left;
 }
 /* end for header */
 
@@ -24,7 +26,6 @@
 #content {
 	width: 950px;
 	margin: 0 auto;
-	padding: 120px 0px;
 }
 /* end for content */
 

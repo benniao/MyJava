@@ -1,0 +1,85 @@
+#nav {
+	width: 300px;
+	float: right;
+}
+
+#nav li {
+	float: left;
+	padding: 20px 10px 0px 10px;
+	line-height: 35px;
+}
+
+#nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.1em;
+	display: block;
+	line-height: 35px;
+	padding: 0px 10px;
+	border-radius: 5px;
+}
+
+#nav a.active {
+	background-color: #a40a06;
+}
+
+#nav a:hover {
+	background-color: #a40a06;
+}
+
+#content {
+	padding: 20px 0px;
+}
+
+#content table {
+	width: 100%;
+}
+
+#content table thead tr {
+	border-bottom: 1px #3a3a3a solid;
+}
+
+#content table thead td {
+	border-right: 1px #3a3a3a solid;
+	background: url(../imgs/table_header_bg.png) repeat-x;
+	height: 30px;
+	text-align: center;
+}
+
+#content table thead td.l-td {
+	border-right: none;
+	background: url(../imgs/table_header_bg.png) repeat-x;
+}
+
+#content table tbody tr {
+	text-align: center;
+	border-bottom: 1px #d4d4d4 solid;
+	height: 31px;
+	background: url(../imgs/table_body_bg.png) repeat-x;
+}
+
+#content table tbody tr:hover {
+	background-position: left -32px;
+}
+
+#content table tbody td {
+	border-right: 1px #c3c3c3 solid;
+}
+
+#content table tbody td.l-td {
+	border: none;
+}
+
+#content table tbody td a {
+	display: inline-block;
+	height: 20px;
+	width: 50px;
+	background: url(../imgs/select_btn.png) no-repeat;
+	line-height: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+#content table tbody td a.no {
+	background-position: left -20px;
+}
