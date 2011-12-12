@@ -9,12 +9,21 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+/**
+ * 数据库工具类
+ * 
+ * @author 聂亚杰
+ * @version 1.0
+ */
 public class DBUtil {
 	private static String dbHost;
 	private static String dbPort;
 	private static String dbName;
 	private static String dbUser;
 	private static String dbPassword;
+	/**
+	 * 从文件中读取数据库配置
+	 */
 	static {
 		try {
 			InputStream dbIn = DBUtil.class
@@ -51,6 +60,11 @@ public class DBUtil {
 		}
 	}
 
+	/**
+	 * 新建一个数据库连接
+	 * 
+	 * @return Connection
+	 */
 	public static Connection createConnection() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");

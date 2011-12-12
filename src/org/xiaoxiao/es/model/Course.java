@@ -4,7 +4,7 @@ package org.xiaoxiao.es.model;
  * 
  * 课程表对应的Model类
  * 
- * @author Ruby
+ * @author 聂亚杰
  * @version 1.0
  * 
  */

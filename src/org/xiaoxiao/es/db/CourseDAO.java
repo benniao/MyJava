@@ -9,7 +9,19 @@ import java.util.List;
 
 import org.xiaoxiao.es.model.Course;
 
+/**
+ * 课程表的数据库操作
+ * 
+ * @author 聂亚杰
+ * @version 1.0
+ * 
+ */
 public class CourseDAO {
+	/**
+	 * 得到所有课程
+	 * 
+	 * @return List<Course>
+	 */
 	public static List<Course> findAllCourse() {
 		List<Course> courseList = new ArrayList<Course>();
 		try {
@@ -39,6 +51,13 @@ public class CourseDAO {
 		return courseList;
 	}
 
+	/**
+	 * 得到某个学生的所选课程
+	 * 
+	 * @param studentId
+	 *            学生id
+	 * @return List<Course>
+	 */
 	public static List<Course> findByStudentId(int studentId) {
 		List<Course> courseList = new ArrayList<Course>();
 		try {
