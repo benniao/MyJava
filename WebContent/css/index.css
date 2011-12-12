@@ -16,6 +16,12 @@ form fieldset.item {
 	padding: 10px;
 }
 
+form fieldset.error {
+	text-align: center;
+	color: red;
+	font-size: 0.8em;
+}
+
 form label {
 	width: 90px;
 	text-align: right;
